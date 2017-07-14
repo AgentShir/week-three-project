@@ -1,8 +1,4 @@
-container {
-
-}
-
-#calculator {
+calculator {
     display: flex;
     flex-wrap: wrap;
 
@@ -26,7 +22,7 @@ button2:hover{
     color: black;
 }
 
-.result {
+result {
   flex-grow: 3;
   color: green;
 }
