@@ -2,19 +2,23 @@ container {
 
 }
 
-calculator {
+#calculator {
     display: flex;
     flex-wrap: wrap;
-    background: green;
-    color: white;
 
 }
 
 button {
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
 
 }
 
-button2 {
+button light{
+  color: black;
 
 }
 
@@ -22,6 +26,7 @@ button2:hover{
     color: black;
 }
 
-result {
+.result {
   flex-grow: 3;
+  color: green;
 }
