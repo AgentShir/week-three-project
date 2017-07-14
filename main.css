@@ -4,9 +4,10 @@ container {
 
 calculator {
     display: flex;
+    flex-wrap: wrap;
     background: green;
     color: white;
-    
+
 }
 
 button {
@@ -19,4 +20,8 @@ button2 {
 
 button2:hover{
     color: black;
+}
+
+result {
+  flex-grow: 3;
 }
